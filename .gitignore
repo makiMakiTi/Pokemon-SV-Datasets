@@ -1,3 +1,5 @@
-sample.txt
+
+
 datasets/*
-capture/*
+capture/video/*
+!capture/video/2022-11-19 11-55-09.mp4
