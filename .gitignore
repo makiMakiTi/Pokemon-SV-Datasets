@@ -9,3 +9,4 @@ capture/image/*
 !capture/video/2022-11-19 11-55-09.mp4
 label_studio_exported/project-7-at-2022-11-19-04-25-96f08eb9.zip
 .ipynb_checkpoints/*
+datasets/v1.0/
