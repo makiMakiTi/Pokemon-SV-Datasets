@@ -11,7 +11,8 @@ RUN pip install pillow \
                 matplotlib \
                 numpy \
                 loguru \
-                opencv-python
+                opencv-python \
+                tqdm
 
 # coco split
 RUN pip install sklearn \

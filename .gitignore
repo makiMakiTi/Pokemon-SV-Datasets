@@ -4,6 +4,8 @@
 !datasets\v0\pokemon_sv_valid.json
 !datasets\v0\result.json
 capture/video/*
+capture/image/*
+!capture/image/2022-11-19_11-55-09.mp4
 !capture/video/2022-11-19 11-55-09.mp4
 label_studio_exported/project-7-at-2022-11-19-04-25-96f08eb9.zip
 .ipynb_checkpoints/*
