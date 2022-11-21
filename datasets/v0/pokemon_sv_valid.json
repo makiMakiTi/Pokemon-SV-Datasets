@@ -1,0 +1,481 @@
+{
+  "annotations": [
+    {
+      "area": 41400,
+      "bbox": [
+        948,
+        602,
+        120,
+        345
+      ],
+      "category_id": 3,
+      "id": 0,
+      "ignore": 0,
+      "image_id": 0,
+      "iscrowd": 0,
+      "segmentation": []
+    },
+    {
+      "area": 4284,
+      "bbox": [
+        923,
+        624,
+        63,
+        68
+      ],
+      "category_id": 2,
+      "id": 3,
+      "ignore": 0,
+      "image_id": 0,
+      "iscrowd": 0,
+      "segmentation": []
+    },
+    {
+      "area": 12183,
+      "bbox": [
+        1172,
+        877,
+        93,
+        131
+      ],
+      "category_id": 2,
+      "id": 6,
+      "ignore": 0,
+      "image_id": 1,
+      "iscrowd": 0,
+      "segmentation": []
+    },
+    {
+      "area": 15525,
+      "bbox": [
+        1157,
+        877,
+        115,
+        135
+      ],
+      "category_id": 2,
+      "id": 9,
+      "ignore": 0,
+      "image_id": 2,
+      "iscrowd": 0,
+      "segmentation": []
+    },
+    {
+      "area": 15428,
+      "bbox": [
+        1153,
+        877,
+        116,
+        133
+      ],
+      "category_id": 2,
+      "id": 12,
+      "ignore": 0,
+      "image_id": 3,
+      "iscrowd": 0,
+      "segmentation": []
+    },
+    {
+      "area": 15246,
+      "bbox": [
+        1080,
+        921,
+        121,
+        126
+      ],
+      "category_id": 2,
+      "id": 15,
+      "ignore": 0,
+      "image_id": 4,
+      "iscrowd": 0,
+      "segmentation": []
+    },
+    {
+      "area": 12348,
+      "bbox": [
+        969,
+        980,
+        126,
+        98
+      ],
+      "category_id": 2,
+      "id": 18,
+      "ignore": 0,
+      "image_id": 5,
+      "iscrowd": 0,
+      "segmentation": []
+    },
+    {
+      "area": 2679,
+      "bbox": [
+        954,
+        1032,
+        57,
+        47
+      ],
+      "category_id": 2,
+      "id": 20,
+      "ignore": 0,
+      "image_id": 6,
+      "iscrowd": 0,
+      "segmentation": []
+    },
+    {
+      "area": 2419,
+      "bbox": [
+        858,
+        1038,
+        59,
+        41
+      ],
+      "category_id": 2,
+      "id": 23,
+      "ignore": 0,
+      "image_id": 7,
+      "iscrowd": 0,
+      "segmentation": []
+    },
+    {
+      "area": 12480,
+      "bbox": [
+        135,
+        971,
+        120,
+        104
+      ],
+      "category_id": 1,
+      "id": 25,
+      "ignore": 0,
+      "image_id": 8,
+      "iscrowd": 0,
+      "segmentation": []
+    },
+    {
+      "area": 63360,
+      "bbox": [
+        910,
+        554,
+        160,
+        396
+      ],
+      "category_id": 3,
+      "id": 27,
+      "ignore": 0,
+      "image_id": 9,
+      "iscrowd": 0,
+      "segmentation": []
+    },
+    {
+      "area": 11988,
+      "bbox": [
+        647,
+        913,
+        111,
+        108
+      ],
+      "category_id": 2,
+      "id": 30,
+      "ignore": 0,
+      "image_id": 9,
+      "iscrowd": 0,
+      "segmentation": []
+    },
+    {
+      "area": 9996,
+      "bbox": [
+        225,
+        744,
+        98,
+        102
+      ],
+      "category_id": 1,
+      "id": 33,
+      "ignore": 0,
+      "image_id": 10,
+      "iscrowd": 0,
+      "segmentation": []
+    },
+    {
+      "area": 60955,
+      "bbox": [
+        907,
+        551,
+        167,
+        365
+      ],
+      "category_id": 3,
+      "id": 35,
+      "ignore": 0,
+      "image_id": 11,
+      "iscrowd": 0,
+      "segmentation": []
+    },
+    {
+      "area": 6952,
+      "bbox": [
+        629,
+        752,
+        79,
+        88
+      ],
+      "category_id": 2,
+      "id": 38,
+      "ignore": 0,
+      "image_id": 11,
+      "iscrowd": 0,
+      "segmentation": []
+    },
+    {
+      "area": 7134,
+      "bbox": [
+        364,
+        576,
+        82,
+        87
+      ],
+      "category_id": 1,
+      "id": 41,
+      "ignore": 0,
+      "image_id": 12,
+      "iscrowd": 0,
+      "segmentation": []
+    },
+    {
+      "area": 8280,
+      "bbox": [
+        1193,
+        643,
+        92,
+        90
+      ],
+      "category_id": 0,
+      "id": 68,
+      "ignore": 0,
+      "image_id": 19,
+      "iscrowd": 0,
+      "segmentation": []
+    },
+    {
+      "area": 6853,
+      "bbox": [
+        1209,
+        689,
+        77,
+        89
+      ],
+      "category_id": 0,
+      "id": 76,
+      "ignore": 0,
+      "image_id": 21,
+      "iscrowd": 0,
+      "segmentation": []
+    },
+    {
+      "area": 7200,
+      "bbox": [
+        1218,
+        715,
+        80,
+        90
+      ],
+      "category_id": 0,
+      "id": 80,
+      "ignore": 0,
+      "image_id": 22,
+      "iscrowd": 0,
+      "segmentation": []
+    },
+    {
+      "area": 11770,
+      "bbox": [
+        1256,
+        877,
+        107,
+        110
+      ],
+      "category_id": 0,
+      "id": 98,
+      "ignore": 0,
+      "image_id": 27,
+      "iscrowd": 0,
+      "segmentation": []
+    },
+    {
+      "area": 10290,
+      "bbox": [
+        1285,
+        939,
+        98,
+        105
+      ],
+      "category_id": 0,
+      "id": 104,
+      "ignore": 0,
+      "image_id": 29,
+      "iscrowd": 0,
+      "segmentation": []
+    },
+    {
+      "area": 13915,
+      "bbox": [
+        1270,
+        912,
+        115,
+        121
+      ],
+      "category_id": 0,
+      "id": 107,
+      "ignore": 0,
+      "image_id": 30,
+      "iscrowd": 0,
+      "segmentation": []
+    }
+  ],
+  "categories": [
+    {
+      "id": 0,
+      "name": "Hogator"
+    },
+    {
+      "id": 1,
+      "name": "Kuwassu"
+    },
+    {
+      "id": 2,
+      "name": "Nyahoja"
+    },
+    {
+      "id": 3,
+      "name": "player"
+    }
+  ],
+  "images": [
+    {
+      "file_name": "67d01f48-000000068.jpg",
+      "height": 1080,
+      "id": 0,
+      "width": 1920
+    },
+    {
+      "file_name": "045754af-000000124.jpg",
+      "height": 1080,
+      "id": 1,
+      "width": 1920
+    },
+    {
+      "file_name": "7bc2ad02-000000120.jpg",
+      "height": 1080,
+      "id": 2,
+      "width": 1920
+    },
+    {
+      "file_name": "c374c1d1-000000116.jpg",
+      "height": 1080,
+      "id": 3,
+      "width": 1920
+    },
+    {
+      "file_name": "1658a838-000000112.jpg",
+      "height": 1080,
+      "id": 4,
+      "width": 1920
+    },
+    {
+      "file_name": "cc9038c8-000000108.jpg",
+      "height": 1080,
+      "id": 5,
+      "width": 1920
+    },
+    {
+      "file_name": "c4def748-000000104.jpg",
+      "height": 1080,
+      "id": 6,
+      "width": 1920
+    },
+    {
+      "file_name": "434f0155-000000100.jpg",
+      "height": 1080,
+      "id": 7,
+      "width": 1920
+    },
+    {
+      "file_name": "3048621e-000000096.jpg",
+      "height": 1080,
+      "id": 8,
+      "width": 1920
+    },
+    {
+      "file_name": "f4a6c0f3-000000092.jpg",
+      "height": 1080,
+      "id": 9,
+      "width": 1920
+    },
+    {
+      "file_name": "d1d78546-000000088.jpg",
+      "height": 1080,
+      "id": 10,
+      "width": 1920
+    },
+    {
+      "file_name": "d8a5a419-000000084.jpg",
+      "height": 1080,
+      "id": 11,
+      "width": 1920
+    },
+    {
+      "file_name": "e3b48321-000000080.jpg",
+      "height": 1080,
+      "id": 12,
+      "width": 1920
+    },
+    {
+      "file_name": "db0285a4-000000048.jpg",
+      "height": 1080,
+      "id": 19,
+      "width": 1920
+    },
+    {
+      "file_name": "0a8d7fce-000000040.jpg",
+      "height": 1080,
+      "id": 21,
+      "width": 1920
+    },
+    {
+      "file_name": "2535401d-000000036.jpg",
+      "height": 1080,
+      "id": 22,
+      "width": 1920
+    },
+    {
+      "file_name": "ad9dd54e-000000016.jpg",
+      "height": 1080,
+      "id": 27,
+      "width": 1920
+    },
+    {
+      "file_name": "44ca9f17-000000008.jpg",
+      "height": 1080,
+      "id": 29,
+      "width": 1920
+    },
+    {
+      "file_name": "0d4c392e-000000004.jpg",
+      "height": 1080,
+      "id": 30,
+      "width": 1920
+    }
+  ],
+  "info": {
+    "contributor": "Label Studio",
+    "date_created": "2022-11-19 04:25:10.810833",
+    "description": "",
+    "url": "",
+    "version": "1.0",
+    "year": 2022
+  },
+  "licenses": {
+    "id": 1,
+    "name": "administrater",
+    "url": "dummy_words"
+  }
+}
