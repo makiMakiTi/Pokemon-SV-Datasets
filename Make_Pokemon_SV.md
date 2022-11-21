@@ -1,55 +1,4 @@
-# Pokemon-SV-Datasets
-
-<img src="docs/2022-11-21-18-43-07.png" >
-
-
-## 1. Index
-
-- [1. Index](#1-index)
-- [2. Introduction](#2-introduction)
-- [3. Updates!!](#3-updates)
-- [4. Coming soon](#4-coming-soon)
-- [5. Quick Start](#5-quick-start)
-- [6. Make Pokemon SV Datasets](#6-make-pokemon-sv-datasets)
-- [7. 必要パッケージ](#7-必要パッケージ)
-- [8. Setting param](#8-setting-param)
-- [9. キャプチャー動画の分解](#9-キャプチャー動画の分解)
-  - [9.1. キャプチャー動画のリストを取得](#91-キャプチャー動画のリストを取得)
-  - [9.2. 動画の分解と保存](#92-動画の分解と保存)
-- [10. 画像をアノテーション](#10-画像をアノテーション)
-- [11. アノテーションファイルの修正](#11-アノテーションファイルの修正)
-- [12. データセットの split](#12-データセットの-split)
-
-
-## 2. Introduction
-
-ポケットモンスター SV のデータセットです．
-
-
-## 3. Updates!!
-* 【2022/11/19】動作確認用データセット
-* 【2022/11/21】ver1 データセットアップデート
-
-## 4. Coming soon
-- [ ] ver2 データセット
-
-
-## 5. Quick Start
-
-```bash
-docker-compose up --build
-```
-
-
-## 6. Make Pokemon SV Datasets
-
-こちらの`NOTEBOOK`にてデータセットを作成します．
-
-[notebook/Make_Pokemon_SV.ipynb](notebook/Make_Pokemon_SV.ipynb)
-
-
-
-## 7. 必要パッケージ
+# Make Pokemon SV Datasets
 
 ```python
 import json
@@ -69,7 +18,7 @@ import sys
 import shutil
 ```
 
-## 8. Setting param
+## Setting param
 
 データセットのパスや動画のフォルダなどのパラメーターを設定します．
 
@@ -120,14 +69,14 @@ image_valid_dir = "val2017"
     Dockerfile  README.md  capture	datasets  docker-compose.yml  notebook	utils
 
 
-## 9. キャプチャー動画の分解
+## キャプチャー動画の分解
 
 キャプチャーした動画を分解して画像に変換します．
 
 変換のない静止した状態の画像はスキップした上で，`save_freq`フレームごとに画像を保存します．
 
 
-### 9.1. キャプチャー動画のリストを取得
+### キャプチャー動画のリストを取得
 
 
 ```python
@@ -139,7 +88,7 @@ pprint.pprint(video_list)
     ['capture/video/2022-11-19_11-55-09.mp4']
 
 
-### 9.2. 動画の分解と保存
+### 動画の分解と保存
 
 
 ```python
@@ -208,7 +157,7 @@ def video_section():
 #video_section()
 ```
 
-## 10. 画像をアノテーション
+## 画像をアノテーション
 
 こちらのアノテーションソフトを使ってアノテーションしていきます．
 
@@ -220,7 +169,7 @@ https://github.com/makiMakiTi/label-studio-1.6.0
 docker-compose up --build
 ```
 
-## 11. アノテーションファイルの修正
+## アノテーションファイルの修正
 
 exportされたアノテーションファイル`datasets\v0\result.json`は画像のパスが`COCO`フォーマットになっていないので修正します．
 
@@ -251,7 +200,7 @@ with open(anotate_full_repath, 'wt', encoding='UTF-8') as coco:
         json.dump(result_coco, coco, indent=2, sort_keys=True)
 ```
 
-## 12. データセットの split
+## データセットの split
 
 データセットの分割します．
 
