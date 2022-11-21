@@ -45,7 +45,7 @@ docker-compose up --build
 
 こちらの`NOTEBOOK`にてデータセットを作成します．
 
-[notebook\Make_Pokemon_SV.ipynb](notebook\Make_Pokemon_SV.ipynb)
+[notebook\Make_Pokemon_SV.ipynb](notebook/Make_Pokemon_SV.ipynb)
 
 
 
