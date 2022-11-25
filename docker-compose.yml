@@ -6,7 +6,8 @@ services:
     container_name: jupyterlab-test
     working_dir: /home
     volumes:
-      - .:/home
+      - .:/home/Pokemon-SV
+      - D:\PROJECT\201_HaMaruki\201_60_PokemonSV\Pokemon-SV-Datasets:/home/Pokemon-SV-Datasets
     ports:
       - "8888:8888"
     command:
